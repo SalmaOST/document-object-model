@@ -70,3 +70,5 @@ function calSum() {
 }
 
                                   /*FIN DU SCRIPT*/   
+
+  
