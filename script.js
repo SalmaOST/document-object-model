@@ -1,5 +1,4 @@
-
-                                 /*DEBUT DU SCRIPT*/
+/*DEBUT DU SCRIPT*/
 //RECUPERATION DES PREMIERS ELEMENTS ESSENTIELS
 var article = document.querySelectorAll('.item');
 var ParentArticle = document.querySelector('.parent');
@@ -52,6 +51,7 @@ for (var i = 0; i < article.length; i++) {
     Fav.addEventListener('click', function () {
         Fav.style.backgroundColor = colors[currentIndex];
         currentIndex = (currentIndex + 1) % colors.length;
+        return alert(`Added to favorite`)
     });
 }
 
@@ -65,6 +65,8 @@ function calSum() {
     }
 
     prixTotal.textContent = total.toFixed(2) + ' $'; 
+   
+   
 }
 
                                   /*FIN DU SCRIPT*/   
